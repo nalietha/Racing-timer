@@ -51,8 +51,8 @@ void loop() {
     if (start == 2)
     {
       elapsedTime = endTime - startTime;
-      minutes = elapsedTime / 60000;
-      elapsedTime = (minutes * 60000) - elapsedTime;
+      //minutes = elapsedTime / 60000;
+      //elapsedTime = (minutes * 60000) - elapsedTime;
       seconds = -(elapsedTime / 1000);
       elapsedTime = (seconds * 1000) - elapsedTime;
       milliseconds = elapsedTime / 1000;
